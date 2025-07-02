@@ -8,7 +8,7 @@ let pessoa1;
 pessoa1 = ['Leandro Barreiro', 'Desenvolvedor em BemSoft', 19];
 console.log(pessoa1[1]); //Acessar valores em tuplas
 //Exemplo 03 - Outra forma de usar Tuplas em TypeScript (com labels)
-let pessoa2;
+let pessoa2; //apenas nomeia o que cada posição significa
 pessoa2 = ['Leandro Barreiro', 'Desenvolvedor em BemSoft', 19];
 console.log(pessoa2);
 //Exemplo 04 - Usando Tuplas com Spread Operator
