@@ -17,3 +17,7 @@ const loopInfinito = function loop() {
 };
 console.log(loopInfinito());
 //Exemplo 04: Diferença entre void e never
+const algumaCoisaVoid = null; // void pode receber null ou undefined
+//const algumaCoisaNever: never = null; // never não pode receber null ou undefined
+console.log(algumaCoisaVoid);
+//console.log(algumaCoisaNever); // Isso vai gerar um erro de compilação, pois never não pode ser atribuído a uma variável
