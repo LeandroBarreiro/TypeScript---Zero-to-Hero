@@ -38,6 +38,27 @@ function onboarding02(pessoa: Humano) {
 
 console.log(onboarding02({nome: 'Leandro Barreiro', funcao: 'Dev TypesScript'}));
 
-//
+//Exemplo 04: obejct como type alias
 
+type Pessoa04 = {
+    nome: string;
+    funcao: string;
+    linguagem: string;
+}
+
+function onboarding03(pessoa: Pessoa04) {
+   return (
+    'Seja bem-vindo ' +
+    pessoa.nome +
+    '!' +
+    ' Sua função aqui na empresa será ' +
+    pessoa.funcao +
+    '.' +
+    ' Você trabalhará com a linguagem ' +
+    pessoa.linguagem +
+    '.'
+   );
+}
+
+console.log(onboarding03({nome: 'Leandro Barreiro', funcao: 'Dev TypesScript', linguagem: 'TypeScript'}));
 

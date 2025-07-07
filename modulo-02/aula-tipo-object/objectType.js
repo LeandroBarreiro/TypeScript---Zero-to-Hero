@@ -21,3 +21,15 @@ function onboarding02(pessoa) {
         '.');
 }
 console.log(onboarding02({ nome: 'Leandro Barreiro', funcao: 'Dev TypesScript' }));
+function onboarding03(pessoa) {
+    return ('Seja bem-vindo ' +
+        pessoa.nome +
+        '!' +
+        ' Sua função aqui na empresa será ' +
+        pessoa.funcao +
+        '.' +
+        ' Você trabalhará com a linguagem ' +
+        pessoa.linguagem +
+        '.');
+}
+console.log(onboarding03({ nome: 'Leandro Barreiro', funcao: 'Dev TypesScript', linguagem: 'TypeScript' }));
